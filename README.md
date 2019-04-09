@@ -8,7 +8,7 @@ NodeJs - v.10.1.0 or later
 Mocha - v.6.0.2 or later
 
 
-This packeges should be installed globaly in the system
+This packages should be installed globaly in the system
 
 ## To use server
 
@@ -25,7 +25,7 @@ curl -F 'file=@mocks/text-1.txt' 'http://localhost:5000/api/v1/raw'
 
 curl -F 'file=@mocks/text-1.txt' 'http://localhost:5000/api/v1/words/revers'
 
-Where mocks/text-1.txt is your file source
+Where ```mocks/text-1.txt``` is your file source
 
 # Tasks
 
