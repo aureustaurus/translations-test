@@ -1,0 +1,25 @@
+{
+  "name": "translations-test",
+  "version": "1.0.0",
+  "description": "test tasks",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha 'test/*.js'"
+  },
+  "keywords": [
+    "test app"
+  ],
+  "author": "aureustaurus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^1.2.0",
+    "@stryker-mutator/javascript-mutator": "^1.2.0",
+    "@stryker-mutator/mocha-framework": "^1.2.0",
+    "@stryker-mutator/mocha-runner": "^1.2.0",
+    "supertest": "^4.0.2"
+  }
+}
